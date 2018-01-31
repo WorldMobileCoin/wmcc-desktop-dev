@@ -1,0 +1,42 @@
+{
+  "name": "wmcc-desktop-dev",
+  "version": "1.0.0-beta.1",
+  "release": "20 December 2017",
+  "productName": "wmcc-desktop-dev",
+  "description": "WorldMobileCoin © WMCC Desktop Application",
+  "homepage": "https://github.com/WorldMobileCoin/wmcc-desktop-dev",
+  "repository": "git://github.com/WorldMobileCoin/wmcc-desktop-dev.git",
+  "bugs": {
+    "url": "https://github.com/WorldMobileCoin/wmcc-desktop-dev/issues"
+  },
+  "author": "ParkAlter@WorldMobileCoin <worldmobilecoin@gmail.com>",
+  "main": "index.js",
+  "keywords": [
+    "worldmobilecoin",
+    "wmcc-node-dev",
+    "wmcc-desktop-dev",
+    "wmcc-application",
+    "wmcc",
+    "node",
+    "desktop",
+    "transaction",
+    "address",
+    "network",
+    "p2p",
+    "cryptocurrency",
+    "blockchain"
+  ],
+  "dependencies": {
+    "wmcc-core-dev": "*",
+    "node-x15": "*",
+    "leveldown": "1.7.2",
+    "secp256k1": "3.3.0",
+    "electron-updater": "2.16.3",
+    "socket.io": "2.0.3",
+    "socket.io-client": "2.0.3"
+  },
+  "optionalDependencies": {
+    "wmcc-native": "*"
+  },
+  "license": "MIT"
+}
